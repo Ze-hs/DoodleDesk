@@ -5,8 +5,12 @@
     top: 0;
     left: 0;
     display: block;
+    z-index: 0;
 }
 
+#toolbar {
+    z-index: 1;
+}
 html, body {
     margin: 0;
     padding: 0;
